@@ -89,6 +89,7 @@ $(document).ready(function () {
     var modal = document.getElementById("myModal");
     var modal2 = document.getElementById("myModal2");
     var modal3 = document.getElementById("myModal3");
+    var modalSobreNosotros = document.getElementById("myModalSobreNosotros");
     var body = document.getElementsByTagName("body")[0];
 
     $("#card1").click(function () {
@@ -105,6 +106,12 @@ $(document).ready(function () {
     });
     $("#card3").click(function () {
         modal3.style.display = "block";
+        body.style.position = "static";
+        body.style.height = "100%";
+        body.style.overflow = "hidden";
+    });
+    $("#sobreNosotros").click(function () {
+        modalSobreNosotros.style.display = "block";
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
@@ -127,6 +134,12 @@ $(document).ready(function () {
         body.style.height = "auto";
         body.style.overflow = "visible";
     });
+    $("#closeSobreNosotros").click(function () {
+        modalSobreNosotros.style.display = "none";
+        body.style.position = "inherit";
+        body.style.height = "auto";
+        body.style.overflow = "visible";
+    });
 
 
     window.onclick = function (event) {
@@ -144,6 +157,12 @@ $(document).ready(function () {
         }
         if (event.target == modal3) {
             modal3.style.display = "none";
+            body.style.position = "inherit";
+            body.style.height = "auto";
+            body.style.overflow = "visible";
+        }
+        if (event.target == modalSobreNosotros) {
+            modalSobreNosotros.style.display = "none";
             body.style.position = "inherit";
             body.style.height = "auto";
             body.style.overflow = "visible";

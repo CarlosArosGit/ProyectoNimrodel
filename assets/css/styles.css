@@ -1,11 +1,13 @@
 nav {
     background-image: url('../img/fondo.jpg');
     background-size: 33% 100px;
- 
+
 }
+
 .carousel .item {
     height: 300px;
-  }
+}
+
 footer {
     background-image: url('../img/fondo.jpg');
     color: white;
@@ -15,18 +17,22 @@ footer {
     justify-content: center;
     margin-top: 20px;
 }
-.formSize{
+
+.formSize {
     width: 60%;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .imgNav {
     height: 150px;
 }
-.logo{
+
+.logo {
     height: 50px;
-  
+
 }
+
 .centrado {
     display: flex;
     justify-content: center;
@@ -129,31 +135,44 @@ a {
     .tarjetaDestacado {
         display: contents;
     }
+
     #titulo {
         font-size: 25px;
     }
+
     .dropdown-menu.show {
         height: 60px;
     }
-   
+
+    .modalContainer .modal-content {
+        width: 100% !important;
+    }
+
+    .parrafoCardModalSobreN {
+        width: 80% !important;
+        font-size: 13px;
+    }
 }
-.imgCardModal{
-    height: 250px; 
-    width: 80%; 
-    margin-left: auto; 
+
+.imgCardModal {
+    height: 250px;
+    width: 80%;
+    margin-left: auto;
     margin-right: auto;
-  }
-  .parrafoCardModal{
+}
+
+.parrafoCardModal {
     color: white;
     text-align: center;
-  }
-  .tituloCardModal {
+}
+
+.tituloCardModal {
     color: white;
     text-align: center;
     font-size: 35px;
-  }
+}
 
-  .modalContainer {
+.modalContainer {
     display: none;
     position: fixed;
     z-index: 1;
@@ -165,26 +184,41 @@ a {
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
-  }
+}
 
-  .modalContainer .modal-content {
+.modalContainer .modal-content {
     background-color: #000;
     margin: auto;
     padding: 20px;
     border-top: 10px solid #000;
     width: 60%;
-  }
+}
 
-  .modalContainer .close {
+.modalContainer .close {
     color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
 
-  .modalContainer .close:hover,
-  .modalContainer .close:focus {
+.modalContainer .close:hover,
+.modalContainer .close:focus {
     color: white;
     text-decoration: none;
     cursor: pointer;
-  }
+}
+
+.imgsSobreNosotros {
+    width: 32% !important;
+    margin-right: auto;
+    margin-left: auto;
+    height: 222px;
+}
+
+.parrafoCardModalSobreN {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
