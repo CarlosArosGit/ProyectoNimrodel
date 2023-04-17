@@ -1,0 +1,190 @@
+nav {
+    background-image: url('../img/fondo.jpg');
+    background-size: 33% 100px;
+ 
+}
+.carousel .item {
+    height: 300px;
+  }
+footer {
+    background-image: url('../img/fondo.jpg');
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.formSize{
+    width: 60%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.imgNav {
+    height: 150px;
+}
+.logo{
+    height: 50px;
+  
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.tarjetaDestacado {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.destacado {
+    margin-bottom: 100px;
+    text-decoration: overline;
+}
+
+h3,
+p {
+    font-size: 10px;
+}
+
+#titulo {
+    color: gray;
+    font-size: 50px;
+}
+
+
+
+li {
+    float: left;
+    display: block;
+    padding: 8px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.bodyForm {
+    background-color: #070707;
+}
+
+.palabrasBlancas {
+    color: white;
+}
+
+.imgDestacado {
+    width: 200px;
+    height: 100px;
+}
+
+.imgDestacado3 {
+    width: 200px;
+    height: 100px;
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+
+
+    footer {
+        margin-top: 250px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .tarjetaDestacado {
+        display: contents;
+    }
+
+    .cardMod {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    .card {
+        width: 35rem !important;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .cardMod {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    .card {
+        width: 22rem !important;
+    }
+
+    .tarjetaDestacado {
+        display: contents;
+    }
+    #titulo {
+        font-size: 25px;
+    }
+    .dropdown-menu.show {
+        height: 60px;
+    }
+   
+}
+.imgCardModal{
+    height: 250px; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .parrafoCardModal{
+    color: white;
+    text-align: center;
+  }
+  .tituloCardModal {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modalContainer .modal-content {
+    background-color: #000;
+    margin: auto;
+    padding: 20px;
+    border-top: 10px solid #000;
+    width: 60%;
+  }
+
+  .modalContainer .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .modalContainer .close:hover,
+  .modalContainer .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
